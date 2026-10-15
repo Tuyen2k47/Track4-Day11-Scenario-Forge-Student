@@ -1,0 +1,25 @@
+{
+  "format": "avsim-studio/1",
+  "hazards": [
+    {
+      "type": "bike",
+      "lane": "E2",
+      "x": 80.0,
+      "d": -1.2,
+      "v": 4.0,
+      "swerve": 1.6,
+      "swDur": 1.8,
+      "t0": 0.0,
+      "trig": 20.0
+    }
+  ],
+  "params": {},
+  "policy": {},
+  "space": {
+    "h0_x": [20.0, 140.0],
+    "h0_swerve": [0.8, 2.2],
+    "h0_trig": [10.0, 35.0]
+  },
+  "exposure": 0.03,
+  "why": "Xe đạp đi ở làn ngoài E2 (d=-1.2 m, gần vạch phân làn) bất ngờ lạng sang trái 0.8–2.2 m vào làn E1 của xe ta để tránh nắp cống/ổ gà khi xe ta còn cách 10–35 m (khoảng 1.0–3.0 s TTC). Tần suất 0.03 lần/chuyến đi dựa trên nghiên cứu tương tác xe cơ giới - xe đạp trong đô thị hỗn hợp (NHTSA/FHWA urban mixed-traffic lateral encroachment rate 2–5% mỗi chuyến)."
+}
